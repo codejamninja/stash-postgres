@@ -12,34 +12,20 @@ Postgres backup and restore plugin for [Stash by AppsCode](https://appscode.com/
 
 Install PostgreSQL 10.2 backup or restore plugin for Stash as below.
 
-**Chart:**
-
 ```console
 helm repo add appscode https://charts.appscode.com/stable/
 helm repo update
 helm install appscode/postgres-stash --name=postgres-stash-10.2 --version=10.2
 ```
 
-**Script:**
-
-```console
-curl -fsSL https://github.com/stashed/postgres/raw/10.2/hack/setup.sh | bash
-```
+To install catalog for all supported PostgreSQL version, please visit [here](https://github.com/stashed/catalog).
 
 ## Uninstall
 
 Uninstall PostgreSQL 10.2 backup or restore plugin for Stash as below.
 
-**Chart:**
-
 ```console
 helm delete postgres-stash-10.2
-```
-
-**Script:**
-
-```console
-curl -fsSL https://github.com/stashed/postgres/raw/10.2/hack/setup.sh | bash -s -- --uninstall
 ```
 
 ## Support
