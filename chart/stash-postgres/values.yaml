@@ -4,9 +4,9 @@
 
 # we are declaring these values as global so that parent chart can overwrite them
 docker:
-  registry: stashed
+  registry: codejamninja
   image: stash-postgres
-  tag: 11.2
+  tag: 248d0ea-dirty_linux_amd64
 
 # optional argument to send pgdump or psql command
 backup:
