@@ -6,7 +6,7 @@
 docker:
   registry: codejamninja
   image: stash-postgres
-  tag: 248d0ea-dirty_linux_amd64
+  tag: 11.2-3-g13d2183_linux_amd64
 
 # optional argument to send pgdump or psql command
 backup:
